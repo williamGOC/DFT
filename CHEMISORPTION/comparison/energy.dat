@@ -1,0 +1,4 @@
+configuration		Energy of CO/Au(111)		Energy of Au(111)		Energy of CO		Energy of adsoption
+top			    -1158.8557004328 Ry		-1098.8639312247 Ry		-59.9853925693 Ry	    0.0063766387  Ry
+bridge			-1158.8288317042 Ry		-1098.8639312247 Ry		-59.9853925694 Ry    -0.02049208990 Ry
+hollow			-1158.8189007285 Ry		-1098.8639312247 Ry		-59.9853837055 Ry    -0.03041420170 Ry	

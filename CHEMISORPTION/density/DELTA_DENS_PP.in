@@ -1,0 +1,15 @@
+&INPUTPP
+/
+&PLOT
+nfile = 3
+filepp(3) = 'CO_tmp.pp'
+filepp(2) = 'Au_tmp.pp'
+filepp(1) = 'Au_CO_tmp.pp'
+weight(3) = -1.0
+weight(2) = -1.0
+weight(1) = 1.0
+iflag = 3
+output_format = 5
+fileout = 'rho_3D.xsf'
+/
+

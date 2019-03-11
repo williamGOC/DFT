@@ -1,0 +1,10 @@
+&INPUTPP
+	prefix='CO_hollow'
+	outdir='./tmp/'
+	plot_num=0
+/
+&PLOT
+	iflag = 3
+	output_format = 5
+	fileout='RHO_XCRYSDEN.xsf'
+/

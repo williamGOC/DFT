@@ -1,0 +1,48 @@
+&control
+    calculation='relax'
+    prefix='CO_Au_hollow',
+    pseudo_dir = '/home/oropebuen/Documents/Job/Absortion/SSSP_efficiency_pseudos',
+    outdir='./tmp/'
+/
+
+&system
+    ibrav=4,
+    celldm(1)=5.449,
+    celldm(3)=8.442,
+    nat=8,
+    ntyp=3,
+    ecutwfc = 40
+    ecutrho = 320
+    occupations='smearing', 
+    smearing='gauss', 
+    degauss=0.01
+/
+
+&electrons
+/
+
+&ions
+/
+
+&cell
+/
+
+ATOMIC_SPECIES
+Au  196.966  Au_ONCV_PBE-1.0.upf
+C   12.0107  C.pbe-n-kjpaw_psl.1.0.0.UPF
+O   15.9994  O.pbe-n-kjpaw_psl.0.1.U
+ 
+ATOMIC_POSITIONS (alat)
+O        0.500001000   0.289330436  -1.007301227
+C        0.500000000   0.289692478  -0.601844381
+
+Au      -0.000000000  -0.000561426  -0.075726971
+Au       0.500000000   0.288601890   0.782821596
+Au       0.000000000   0.577333299   1.661721331
+Au       0.000000000   0.000092570   2.527102214
+
+C        0.500000000   0.289236017   3.052772064
+O        0.500001000   0.288999736   3.458415375
+K_POINTS automatic
+8 8 1 1 1 1
+
