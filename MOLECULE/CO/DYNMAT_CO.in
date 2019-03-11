@@ -1,0 +1,6 @@
+&input
+     fildyn='CO.dynmat_G',
+     asr='simple',  
+     filout='dynmat.out',
+     filxsf='dynmat.axsf',
+/

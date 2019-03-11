@@ -1,0 +1,37 @@
+&control
+    calculation='scf'
+    prefix='CO',
+    pseudo_dir = '/home/oropebuen/Documents/Job/Absortion/SSSP_efficiency_pseudos',
+    outdir='./tmp/'
+ /
+ &system
+    ibrav=1,
+    celldm(1)=20,
+    nat=2,
+    ntyp=2,
+    ecutwfc = 40.0,
+    ecutrho = 320.0,
+    occupations='smearing', smearing='gauss', degauss=0.01
+ /
+
+&electrons
+conv_thr= 1.D-8
+/
+
+&ions
+/
+
+&cell
+/
+
+ATOMIC_SPECIES
+C   12.0107  C.pbe-n-kjpaw_psl.1.0.0.UPF
+O   15.9994  O.pbe-n-kjpaw_psl.0.1.U
+ 
+ATOMIC_POSITIONS (alat)
+C        0.000000000   0.000000000  -0.025571998
+O        0.000000000   0.000000000   0.081970998
+
+K_POINTS automatic
+1 1 1 1 1 1
+

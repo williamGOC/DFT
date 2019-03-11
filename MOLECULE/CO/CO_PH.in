@@ -1,0 +1,9 @@
+vibrational mode of CO isolated molecule
+&inputph
+	prefix='CO',
+	outdir='./tmp/'
+	fildyn='CO.dynmat_G'
+	amass(1)=12.0107,
+	amass(2)=15.9994
+/
+0.0 0.0 0.0
